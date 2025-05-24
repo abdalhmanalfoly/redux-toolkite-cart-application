@@ -1,8 +1,8 @@
 import { Route ,Routes } from 'react-router';
 import Navbar from './components/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Products from './components/products.jsx';
 import Cart from './components/Cart.jsx';
+import Products from './components/Products.jsx'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <>
     < Navbar />
     <Routes >
-      <Route path="/Product" element={<Products/>} />
+      <Route path="/Product" element={<Products />} />
       <Route path="/Cart" element={<Cart/>} />
     </Routes>
     </>
