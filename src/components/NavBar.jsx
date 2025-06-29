@@ -1,14 +1,21 @@
 import { Navbar } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router'
-
 function NavBar() {
+
+
+
+
+
+
+  
 const cart = useSelector((state) => state.cartslice);
   
   return (
     <div>
-      <Navbar fixed='top' className='bg-light'>
-        
+      <Navbar  className='bg-light'>
+         
+         
   <nav  className="navbar   navbar-light bg-light">
       <div className="container-fluid mx-5">
         <Link className="navbar-brand" to="/">CART APP</Link>
